@@ -4,10 +4,8 @@
   "description": "Proceso para actualizar bbdd de SYP con API de IMDB",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[24.10.6]",
-    "UiPath.Testing.Activities": "[24.10.3]",
-    "UiPath.UIAutomation.Activities": "[24.10.10]",
-    "UiPath.WebAPI.Activities": "[1.21.1]"
+    "MySqlConnector": "[2.4.0]",
+    "UiPath.System.Activities": "[24.10.6]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -43,9 +41,10 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "saveToCloud": false
+    "saveToCloud": false,
+    "cloudProjectUrl": "https://cloud.uipath.com/mb3gestion/studio_/designer/c27f25d1-b25c-4df2-a24f-da098fd24e7f"
   },
-  "expressionLanguage": "VisualBasic",
+  "expressionLanguage": "CSharp",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
